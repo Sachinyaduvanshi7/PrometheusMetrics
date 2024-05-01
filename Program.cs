@@ -24,6 +24,8 @@ app.UseAuthorization();
 
 app.UseMetricServer();
 
+app.UseHttpMetrics();
+
 app.MapControllers();
 
 app.Run();
